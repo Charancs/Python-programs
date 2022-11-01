@@ -1,0 +1,81 @@
+    Addition of two numbers:
+
+a=int(input('enter the first value:'))
+b=int(input('enter the second value:'))
+c=a+b
+print('sum of '+str(a)+' and '+str(b)+' is= '+str(c))
+
+        Finding square root:
+
+a=int(input('enter the number whose square root to be calculated:'))
+b=a**0.5
+print('square root of '+str(a)+' is ='+str(b))
+
+      
+       Finding area of triangle:
+
+a=int(input('enter the height of the triangle:'))
+b=int(input('enter the base of the of the triangle:'))
+c=1/2*a*b
+print('the area of triangle is ='+str(c))
+
+
+      Swapping of two variable:
+
+a=input('enter the first vaulue:')
+b=input('enter the second value:')
+a,b=b,a
+print('a ='+str(a))
+print('b ='+str(b))
+
+
+temp=a
+a=b
+b=temp
+print('a ='+str(a))
+print('b ='+str(b))
+
+
+a=int(input('enter the first vaulue:'))
+b=int(input('enter the second value:'))
+a=a+b
+b=a-b
+a=a-b
+print('a ='+str(a))
+print('b ='+str(b))
+
+a=int(input('enter the first vaulue:'))
+b=int(input('enter the second value:'))
+a=a*b
+b=a/b
+a=a/b
+print('a ='+str(a))
+print('b ='+str(b))
+
+
+a=int(input('enter the first vaulue:'))
+b=int(input('enter the second value:'))
+a=a^b
+b=a^b
+a=a^b
+print('a ='+str(a))
+print('b ='+str(b))# Write your code here :-)
+
+
+   Convert Km to mile:
+
+a=int(input('enter km'))
+b=0.631*a
+print(b)
+
+
+       Quadratic equation:
+
+
+a=int(input('enter the first vaulue:'))
+ b=int(input('enter the second value:')) 
+c=int(input('enter the second value:'))  
+d = (b*b) - (4*a*c)  
+sol1 = (-b-(d)**0.5)/(2*a) 
+sol2 = (-b+(d)**0.5)/(2*a)  
+print('The solution are '+str(sol1),str(sol2))
